@@ -1,0 +1,11 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: scm-saas-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/devrevo/SCM-SaaS-Config-Server.git
+          clone-on-start: false
