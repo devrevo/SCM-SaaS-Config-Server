@@ -5,7 +5,11 @@ spring:
     name: scm-saas-config-server
   cloud:
     config:
+      label: dev
       server:
         git:
+          default-label: dev
           uri: https://github.com/devrevo/SCM-SaaS-Config-Server.git
-          clone-on-start: false
+          username: devrevo
+          password: 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
+          clone-on-start: true
