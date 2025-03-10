@@ -10,6 +10,6 @@ spring:
         git:
           default-label: dev
           uri: https://github.com/devrevo/SCM-SaaS-Config-Server.git
-          username: devrevo
-          password: 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
+          username: <GITHUB_USERNAME_HERE>
+          password: <GITHUB_TOKEN_HERE>
           clone-on-start: true
